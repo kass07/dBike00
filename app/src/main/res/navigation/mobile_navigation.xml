@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_CalculoIMC"
+        android:name="com.bycode.dbike.Activity.ui.IMCFragment"
+        android:label="Calcular imc"
+        tools:layout="@layout/fragment_imc"/>
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.bycode.dbike.Activity.ui.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login"/>
+
+    <fragment
+        android:id="@+id/nav_cadastro"
+        android:name="com.bycode.dbike.Activity.ui.CadastroFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_cadastro"/>
+
+    <fragment
+        android:id="@+id/nav_rotasCompartilhadas"
+        android:name="com.bycode.dbike.Activity.ui.RotasCompFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_rotascomp"/>
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bycode.dbike.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.bycode.dbike.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.bycode.dbike.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.bycode.dbike.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.bycode.dbike.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.bycode.dbike.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

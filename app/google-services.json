@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578757300111",
+    "firebase_url": "https://dbike-d4b6d.firebaseio.com",
+    "project_id": "dbike-d4b6d",
+    "storage_bucket": "dbike-d4b6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578757300111:android:5eb7f0a81df8b97901c5fa",
+        "android_client_info": {
+          "package_name": "com.bycode.dbike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578757300111-9r32sirvjvsnolo6gvu6nst91ob2kcj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bycode.dbike",
+            "certificate_hash": "812ec0f488644c784e69ceae6e7a611588783606"
+          }
+        },
+        {
+          "client_id": "578757300111-e4lg3qr043jtadra1lq703tmsb5giof5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3y7tJq2MhxnALg4bBTRt0_zfyVrZFFmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578757300111-e4lg3qr043jtadra1lq703tmsb5giof5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
