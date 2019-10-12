@@ -17,6 +17,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.bycode.dbike.Activity.MainActivity;
+import com.bycode.dbike.Activity.MainMenuActivity;
 import com.bycode.dbike.Config.ConfigFirebase;
 import com.bycode.dbike.Model.Entidades.Usuario;
 import com.bycode.dbike.Model.LoginViewModel;
@@ -83,7 +84,7 @@ public class LoginFragment extends Fragment {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
-                            startActivity(new Intent(getActivity(), MainActivity.class));
+                            startActivity(new Intent(getActivity(), MainMenuActivity.class));
                         }else{
                             String erroExcessao = "";
                             try {
