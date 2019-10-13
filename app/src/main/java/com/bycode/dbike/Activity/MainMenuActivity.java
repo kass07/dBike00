@@ -44,6 +44,8 @@ public class MainMenuActivity extends AppCompatActivity {
                 deslogarUsuario();
                 startActivity(new Intent(getApplicationContext(),MainActivity.class));
                 break;
+            case R.id.action_maps:
+                startActivity(new Intent(getApplicationContext(),MapsActivity.class));
         }
         return super.onOptionsItemSelected(item);
     }
